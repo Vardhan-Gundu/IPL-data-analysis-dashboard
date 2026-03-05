@@ -1,5 +1,11 @@
-ipl_analysis.sql
+ipl_analysis.sql 
 
+-- IPL DATA ANALYSIS PROJECT
+-- Author: Vardhan Gundu
+-- Tools Used: MySQL, Python, Power BI
+-- This script contains table creation, analysis queries, and views.
+
+    
 create database ipl_analysis;
 use ipl_analysis;
 
@@ -132,3 +138,4 @@ SELECT bowler,
        COUNT(ball) AS balls_bowled
 FROM deliveries
 GROUP BY bowler;
+
